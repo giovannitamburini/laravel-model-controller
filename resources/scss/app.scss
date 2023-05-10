@@ -1,1 +1,21 @@
 @import '~bootstrap/scss/bootstrap';
+
+#my-ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+
+    .my-li {
+        list-style-type: none;
+
+        .my-title {
+            height: 70px;
+        }
+
+        .original-title {
+            height: 50px;
+        }
+    }
+}
