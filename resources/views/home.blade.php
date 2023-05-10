@@ -1,5 +1,7 @@
 @extends('layouts/main')
 
 @section('content')
-    testo in home.blade
+    <div id="home-title">
+        Welcome to Movie Laravel
+    </div>
 @endsection

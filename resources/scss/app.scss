@@ -1,5 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
 
+nav {
+
+    img {
+        height: 100%;
+    }
+
+    #logo-text {
+        text-transform: uppercase;
+        color: #007bc3;
+    }
+
+    #link-movie {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+#home-title {
+    padding-top: 30px;
+    text-align: center;
+}
+
 #my-ul {
     display: flex;
     flex-flow: row wrap;
